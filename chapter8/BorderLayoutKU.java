@@ -4,6 +4,7 @@ import javax.swing.*;
 public class BorderLayoutKU extends JFrame {
 	BorderLayoutKU() {
 		super("BorderLayout이다!");
+		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		
 		Container cp = getContentPane();
 		
