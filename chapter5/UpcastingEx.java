@@ -26,6 +26,6 @@ public class UpcastingEx {
 		s.grade = "A";
 		
 		p.department = "Computer"; //error
-		s.grade = "Computer";
+		s.department = "Computer";
 	}
 }
